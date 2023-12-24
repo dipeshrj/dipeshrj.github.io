@@ -18,19 +18,19 @@ const Profile = () => {
 
       <div className="profile_image">
         <div className="overlay-circle">
-          <img src="src\assets\circle.svg" alt="overlay-circle" />
+          <img src="homePath\src\assets\circle.svg" alt="overlay-circle" />
         </div>
         <div className="profile-img">
-          <img src="src\assets\profile.png" alt="profile" />
+          <img src="homePath\src\assets\profile.png" alt="profile" />
         </div>
       </div>
 
       <div className="profile-icons">
         <a href="https://github.com/dipeshrj">
-          <img src="src\assets\github.png" alt="github" height={40} />
+          <img src="homePath\src\assets\github.png" alt="github" height={40} />
         </a>
         <a href="https://www.linkedin.com/in/dipeshraj056">
-          <img src="src\assets\linkedin.png" alt="linkedin" />
+          <img src="homePath\src\assets\linkedin.png" alt="linkedin" />
         </a>
       </div>
     </div>
