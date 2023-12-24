@@ -1,0 +1,42 @@
+.projects{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    /* border: 1px solid black; */
+}
+
+.jobsewa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border:  white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 60%;
+    width: 30%;
+    padding: 10px;
+}
+
+.nepmart{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 12px;
+            border:  white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            height: 60%;
+            width: 30%;
+            padding: 10px;
+}
+
+.jobsewa-details{
+width: 100%;
+}
+
+.nepmart-details{
+width: 100%;
+}
