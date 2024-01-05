@@ -1,75 +1,72 @@
-
-.profile{
-    height: 100%;
-    width: 100%;
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+.profile {
+  height: 100%;
+  width: 100vw;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.profile-badge{
-    padding-top: 8rem;
-    width: 140px;
-    display: flex;
-    align-items: center;
-   flex-direction: column;
-    /* border: 1px solid black; */
+.profile-badge {
+  padding-top: 8rem;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
 }
-.hello{
-    width: 100px;
-    text-align: center;
-    flex-direction: column;
-    padding:5px 10px;
-    border: white;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+.hello {
+  width: 100px;
+  text-align: center;
+  flex-direction: column;
+  padding: 5px 10px;
+  border: white;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.developer {
+  width: 100px;
+  margin-top: 2rem;
+  text-align: center;
+  flex-direction: column;
+  padding: 5px 10px;
+  border: white;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
 
-}
-.developer{
-    width: 100px;
-    margin-top: 2rem;
-        text-align: center;
-        flex-direction: column;
-        padding: 5px 10px;
-        border: white;
-        border-radius: 15px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.profile-icons{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 1rem;
-    /* border: 1px solid black; */
+.profile-icons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  /* border: 1px solid black; */
 }
 
 .profile_image {
-    margin: 1.7rem;
-    height: 84vh;
-    width: 40%;
-    position: relative;
-    display: block;
-    justify-content: center;
-    align-items: center;
+  margin: 1.7rem;
+  height: 84vh;
+  width: 40%;
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
 
-    /* border: 1px solid red; */
-    margin-bottom: 0;
-    padding-bottom: 0;
+  /* border: 1px solid red; */
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .overlay-circle {
-    height: 84vh;
-    width: 100%;
-    position: absolute;
-    /* border: 1px solid black; */
+  height: 84vh;
+  width: 100%;
+  position: absolute;
+  /* border: 1px solid black; */
 }
 
-.profile-img{
-    height: 84vh;
-width: 100%;
-position: absolute;
-    /* border: 1px solid blue; */
+.profile-img {
+  height: 84vh;
+  width: 100%;
+  position: absolute;
+  /* border: 1px solid blue; */
 }
-
