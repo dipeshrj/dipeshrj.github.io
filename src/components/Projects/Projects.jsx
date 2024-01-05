@@ -15,6 +15,9 @@ const Projects = () => {
         <div className="jobsewa-details">
           <h3>Jobsewa</h3>
           <p>A job portal </p>
+          <button>
+            <a href="https://github.com/dipeshrj/Job-Portal">Soure Code</a>
+          </button>
         </div>
       </div>
       {/* e-commerce */}
@@ -28,6 +31,11 @@ const Projects = () => {
         <div className="nepmart-details">
           <h3>Nepmart</h3>
           <p>An e-commerce website </p>
+          <button>
+            <a href="https://github.com/dipeshrj/JavaScript-Project-E-commerce-">
+              Soure Code
+            </a>
+          </button>
         </div>
       </div>
       {/* todoapp */}
@@ -41,6 +49,9 @@ const Projects = () => {
         <div className="todoapp-details">
           <h3>ToDo App</h3>
           <p>A todo web-app </p>
+          <button>
+            <a href="https://github.com/dipeshrj/To-Do-App">Soure Code</a>
+          </button>
         </div>
       </div>
     </div>
