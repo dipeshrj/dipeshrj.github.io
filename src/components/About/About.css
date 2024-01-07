@@ -1,19 +1,18 @@
 .about {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100vw;
+  text-align: left;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  text-transform: none;
+  /* border: 1px solid black; */
+
+  .about__text {
     text-align: left;
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
+    text-justify: auto;
     text-transform: none;
-    /* border: 1px solid black; */
-
-    .about__text {
-        text-align: left;
-        text-justify: auto;
-        text-transform: none;
-    }
-
+  }
 }

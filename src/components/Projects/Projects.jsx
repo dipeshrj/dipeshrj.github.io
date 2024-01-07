@@ -59,6 +59,25 @@ const Projects = () => {
           </Button>
         </div>
       </div>
+
+      {/* todoapp-angular*/}
+      <div className="todoapp">
+        <img
+          src="assets/ToDo-App-Angular.png"
+          alt="to-do-app"
+          height={200}
+          width={400}
+        />
+        <div className="todoapp-details">
+          <h3>ToDo-App-Angular</h3>
+          <p>A todo web-app </p>
+          <Button variant="contained">
+            <a id="anchor" href="https://github.com/dipeshrj/ToDo-App-Angular">
+              Soure Code
+            </a>
+          </Button>
+        </div>
+      </div>
     </div>
   );
 };
